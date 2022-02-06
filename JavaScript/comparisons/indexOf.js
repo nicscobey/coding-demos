@@ -1,0 +1,1 @@
+// compare indexOf in strings vs arrays. maybe in objects, too?
