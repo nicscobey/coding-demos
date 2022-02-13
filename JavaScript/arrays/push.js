@@ -13,3 +13,7 @@ console.log(myArray)                          // returns ['a', 'b', 'c', 'd', 'e
 
 
 
+const myArray = ["apple", "banana", "orange"]
+myArray.push("pear")
+console.log(myArray)
+
