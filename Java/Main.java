@@ -12,5 +12,6 @@ public class Main {
         System.out.println(myFloat);
         System.out.println(myBoolean);
         System.out.println(Arrays.toString(myArray));
+        System.out.println("Hello, World!");
     }
 }

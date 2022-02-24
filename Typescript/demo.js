@@ -9,12 +9,13 @@ exports.__esModule = true;
 //     console.log(i)
 // }
 var a;
-if (a > 1) {
-    console.log('a > 1');
+if (a > 0) {
+    console.log('a > 0');
 }
 else if (a < 0) {
-    console.log('a < 1');
+    console.log('a < 0');
 }
 else {
     console.log('a is 0');
 }
+console.log("Hello, World!");
