@@ -19,16 +19,7 @@ myBook.pages = 226
 console.log(myBook)
 
 
-let a
-if (a > 0) {
-    console.log('a > 0')
-}
-else if (a < 0) {
-    console.log('a < 0')
-}
-else {
-    console.log('a is 0')
-}
+
 
 
 console.log("Hello, World!")

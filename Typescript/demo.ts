@@ -11,7 +11,7 @@ export {};
 //     console.log(i)
 // }
 
-let a: number
+let a: number = 0
 
 if (a > 0) {
     console.log('a > 0')

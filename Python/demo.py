@@ -6,13 +6,5 @@ from operator import truediv
 # myBoolean = True
 # myArray = [0, 1, 2, 3, 4]
 
-a = 0
-if a > 0:
-    print('a > 0')
-elif a < 0:
-    print('a < 0')
-else:
-    print('a = 0')
 
-print("Hello, World!")
 
