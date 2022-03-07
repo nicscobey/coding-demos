@@ -4,8 +4,12 @@ const house = {
     sqft: 1234
 }
 
-for (prop in house) {console.log(prop)}
+for (prop in house) {
+    console.log(house[prop])
+}
 
-for (prop in house) {console.log(house[prop])}
 
 
+// for (prop in house) {console.log(prop)}
+
+// for (prop in house) {console.log(house[prop])}
