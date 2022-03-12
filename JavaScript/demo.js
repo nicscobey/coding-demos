@@ -203,12 +203,71 @@
 
 
 //recursion
-const fact = (n, total = 1) => {
-    while (n >= 1) {
-        total *= n;
-        return fact(n - 1, total)
-    }
-    return total
-}
+//this way isn't as good
+// const fact = (n, total = 1) => {
+//     while (n >= 1) {
+//         total *= n;
+//         return fact(n - 1, total)
+//     }
+//     return total
+// }
 
-console.log(fact(5))
+// //this way is better
+// const factorial = (n) => {
+//     if (n >= 1) {
+//         return n * factorial(n-1)
+//     }
+//     else return 1
+// }
+
+// console.log(factorial(4))
+// console.log(fact(0))
+
+// const fib = (n, now = 1, last = 0, position = 1) => {
+//     while (position <n) {
+//         return fib(n, now + last, now, position + 1)
+//     }
+//     return now
+// }
+
+
+
+// const arr = [1,2,3,4,5,6]
+
+// let hashTable = {}
+
+// for (num in arr) {
+//     hashTable[num] = `hi ${num}`
+// }
+
+// console.log(hashTable[1])
+
+
+
+const users = {
+    Alan: {
+      online: false
+    },
+    Jeff: {
+      online: true
+    },
+    Sarah: {
+      online: false
+    }
+  }
+  
+  function countOnline(usersObj) {
+    // Only change code below this line
+    let online = 0
+    for (let user in usersObj) {
+        console.log(user)
+      if (user['online']) {
+          console.log('hi')
+          online++
+      }
+    }
+    return online
+    // Only change code above this line
+  }
+  
+  console.log(countOnline(users));
