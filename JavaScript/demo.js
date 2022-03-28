@@ -95,16 +95,23 @@
 // printLetters()
 
 
-// const myNums = [3,5,8,1,9,4,12,7]
-// const findFour = (arr, index = 0) => {
-//     if (arr[index] === 4) {
-//         return index
-//     }
-//    return findFour(arr, index + 1)
-// }
+const myNums = [3,5,8,1,9,4,12,7]
+const findFour = (arr, index = 0) => {
+    if (arr[index] === 4) {
+        return index
+    }
+   return findFour(arr, index + 1)
+}
 
-// console.log(findFour(myNums))
+console.log(findFour(myNums))
 
+const findNine = (arr) => {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 9) return i
+    }
+}
+
+console.log(findNine(myNums))
 
 
 
@@ -244,30 +251,30 @@
 
 
 
-const users = {
-    Alan: {
-      online: false
-    },
-    Jeff: {
-      online: true
-    },
-    Sarah: {
-      online: false
-    }
-  }
+// const users = {
+//     Alan: {
+//       online: false
+//     },
+//     Jeff: {
+//       online: true
+//     },
+//     Sarah: {
+//       online: false
+//     }
+//   }
   
-  function countOnline(usersObj) {
-    // Only change code below this line
-    let online = 0
-    for (let user in usersObj) {
-        console.log(user)
-      if (user['online']) {
-          console.log('hi')
-          online++
-      }
-    }
-    return online
-    // Only change code above this line
-  }
+//   function countOnline(usersObj) {
+//     // Only change code below this line
+//     let online = 0
+//     for (let user in usersObj) {
+//         console.log(user)
+//       if (user['online']) {
+//           console.log('hi')
+//           online++
+//       }
+//     }
+//     return online
+//     // Only change code above this line
+//   }
   
-  console.log(countOnline(users));
+//   console.log(countOnline(users));

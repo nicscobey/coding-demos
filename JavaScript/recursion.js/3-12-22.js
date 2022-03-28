@@ -55,3 +55,18 @@
 //   }
   
 //   findLongestWordLength("The quick brown fox jumped over the lazy dog");
+
+
+
+function gcd(a, b) {
+    console.log('a', a, 'b', b)
+    if (a%b === 0) return b
+    else if (b===0) {
+        return 1
+    }
+    else {
+        return gcd(b, a%b)
+    }
+}
+
+console.log(gcd(20, 8))
